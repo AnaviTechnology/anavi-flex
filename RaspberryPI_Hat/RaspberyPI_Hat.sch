@@ -711,13 +711,13 @@ Wire Wire Line
 $Comp
 L R R11
 U 1 1 570BEF32
-P 5850 2950
-F 0 "R11" V 5930 2950 50  0000 C CNN
-F 1 "12K" V 5850 2950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5780 2950 50  0001 C CNN
-F 3 "" H 5850 2950 50  0000 C CNN
-	1    5850 2950
-	-1   0    0    1   
+P 5800 3900
+F 0 "R11" V 5880 3900 50  0000 C CNN
+F 1 "12K" V 5800 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5730 3900 50  0001 C CNN
+F 3 "" H 5800 3900 50  0000 C CNN
+	1    5800 3900
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R12
@@ -915,8 +915,6 @@ Wire Wire Line
 Text Label 5500 5050 0    39   ~ 0
 D4
 Wire Wire Line
-	5350 4050 5500 4050
-Wire Wire Line
 	5350 2600 5500 2600
 Text Label 5500 2600 0    39   ~ 0
 D6
@@ -928,16 +926,8 @@ Wire Wire Line
 	5350 3450 5500 3450
 Text Label 5500 3450 0    39   ~ 0
 RS
-Text Label 5500 4050 0    39   ~ 0
-EN
 Wire Wire Line
-	5850 3100 5850 3300
-Wire Wire Line
-	5850 3300 5950 3300
-Wire Wire Line
-	5850 2800 5850 2200
-Wire Wire Line
-	5850 2200 5350 2200
+	5800 3300 5950 3300
 Wire Wire Line
 	6250 2550 6250 2700
 Wire Wire Line
@@ -1004,4 +994,12 @@ F 3 "" H 3500 6400 50  0000 C CNN
 	1    3500 6400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5350 4050 5800 4050
+Wire Wire Line
+	5800 3750 5800 3300
+Wire Wire Line
+	5350 4450 5500 4450
+Text Label 5500 4450 0    39   ~ 0
+EN
 $EndSCHEMATC
