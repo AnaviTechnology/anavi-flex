@@ -756,7 +756,7 @@ F 1 "SW_PUSH" H 5750 5370 50  0000 C CNN
 F 2 "myfootprint:TACT_SW_6" H 5750 5450 50  0001 C CNN
 F 3 "" H 5750 5450 50  0000 C CNN
 	1    5750 5450
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2050 3700 3450 3700
